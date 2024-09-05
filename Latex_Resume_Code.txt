@@ -1,0 +1,268 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\usepackage{calc} % added
+\newcommand{\resumeSubSubheadingLeft}[2]{% % added
+\begin{description}[leftmargin=!,labelwidth=\widthof{\small\bfseries #1}]
+    \item[\small #1]{\textit{\small  #2}}
+\end{description}
+}
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape SAGAR HALDAR} \\ \vspace{1pt}
+    \small 9625813605 $|$ 
+    \href{mailto:sagarhaldar987@gmail.com}{{sagarhaldar987@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/sagar-haldar-87282b201/}{{linkedin.com/in/sagar-haldar-87282b201}} $|$
+    \href{https://github.com/Sagarhaldar0009}{{github.com/Sagarhaldar0009}} \newline
+    \href{https://codolio.com/profile/Sagar}{{codolio.com/sagar}}  $|$
+    \href{https://bit.ly/sagar_portfolio}{{bit.ly/sagarPortfolio}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {USICT, Guru Gobind Singh Indraprastha University}{11/2021 -- Present}
+      {Bachelor of Technology in Computer Science Engineering}{CGPA: 7.116}
+    \resumeSubheading
+      {Raisina Bengali School, Delhi}{04/2019 -- 03/2020}
+      {Class XII - Science Non-Medical}{Percentage: 71\%}
+  \resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, JavaScript, HTML/CSS,  C/C++, Python} \\
+     
+     \textbf{Frameworks \& Technologies}{: React.js, Node.js, Express.js, MongoDB, MySQL, TailwindCSS, Bootstrap, Material-UI, Numpy, Pandas, Matplotlib} \\
+     \textbf{Developer Tools}{: VS Code, Postman, Mongodb Compass, Git \& Github} \\
+     % \textbf{Libraries}{: pandas, NumPy, Matplotlib}
+    }}
+
+    \vspace{-4pt}
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Codsoft}{08/2023 -- 09/2023}
+      {Programming Intern}{New Delhi}
+      \resumeItemListStart
+        \resumeItem{Gained real-world project building experience by successfully completing some programming tasks given by the company}
+        \resumeItem{\href{https://github.com/Sagarhaldar0009/CodSoft/blob/main/SAGAR HALDAR.pdf}{Click here to see - Internship Certificate}}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+    \vspace{-4pt}
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-4pt}
+    \resumeSubHeadingListStart
+    
+          \resumeProjectHeading
+          {\textbf{\href{https://studynotion-edtech-navy.vercel.app/}{StudyNotion}} $|$ \emph{Node.js, Express.js, React.js, MongoDB, Tailwind CSS, Postman, Razorpay Payment}}{}
+          \resumeItemListStart
+            \resumeItem{StudyNotion is a comprehensive ed-tech platform that empowers users to create, discover, and share high-quality educational content. Built on the robust MERN stack, the platform offers a seamless user experience and secure payment transactions through Razorpay integration. I leveraged Postman for thorough API testing to ensure optimal performance and reliability.}
+            \resumeItem{Designed a visually appealing minimalistic interface for the application using TailwindCSS, incorporating clean typography, intuitive navigation, and a consistent color palette. This design choice contributed to increased user satisfaction and engagement, making the application more enjoyable to use.}
+            \resumeItem{Live Project Link : {\href{https://studynotion-edtech-navy.vercel.app/}{studynotion-edtech-platform.com}}}
+          \resumeItemListEnd   
+        \vspace{-16pt}
+        
+        \resumeProjectHeading
+          {\textbf{\href{https://e-store-eta.vercel.app/}{E-Store}} $|$ \emph{React.js, Tailwind CSS, Postman, Razorpay Payment, Firebase}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a fully functional E-Commerce web application using React.js for a responsive and user-friendly frontend. Leveraged Firebase for real-time database management, authentication, and cloud storage. Integrated Razorpay for secure and efficient payment processing, allowing customers to easily complete their purchases.}
+            \resumeItem{Live Project Link : {\href{https://e-store-eta.vercel.app/}{e-store-online-shopping-platform.com}}}
+          \resumeItemListEnd
+        \vspace{-16pt}
+        
+        \resumeProjectHeading
+          {\textbf{\href{https://shopping-cart-git-main-sagar-haldars-projects.vercel.app/}{Shopping-Cart}} $|$ \emph{React.js, Tailwind CSS, Redux, HTML, CSS, Backend API}}{}
+          \resumeItemListStart
+            \resumeItem{I developed the frontend of an e-commerce site to understand the concept of state management in React. For this, I used the React library Redux to manage state and TailwindCSS to create a responsive design.}
+            \resumeItem{Live Project Link : {\href{https://shopping-cart-git-main-sagar-haldars-projects.vercel.app/}{shopping-cart-platform.com}}}
+          \resumeItemListEnd
+        \vspace{-16pt}
+
+        \resumeProjectHeading
+          {\textbf{\href{https://live-weather-app-sigma.vercel.app/}{My Weather App}} $|$ \emph{HTML, CSS, Javascript, API}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a weather app using HTML, CSS, and JavaScript. The app displays real-time weather information for a user-specified location by fetching data from a reliable weather API. Users can view current conditions, forecasts, and other relevant weather details.The website is completely responsive in nature.}
+            \resumeItem{Live Project Link : {\href{https://live-weather-app-sigma.vercel.app/}{live-weather-app.com}}}
+          \resumeItemListEnd
+        
+
+        \vspace{-4pt}
+    \resumeSubHeadingListEnd
+
+% Academic and Extra-Curriculum Activity
+\section{Academic \& Extra Curriculum Activity}
+    \resumeItemListStart
+        \resumeItem{Member of ACM (Association for Computing Machinery)- College Society (Membership No. - 9605524)}
+        \vspace{-4pt}
+        \resumeItem{Solved over $500+$ Data Structures and Algorithm Problems on leetcode and GFG.}
+        \vspace{-4pt}
+        \resumeItem{Played a key role as a Management Team Member for Anugoonj (College Fest), Coordinating various aspects of the 
+event including event planning, team management etc.}
+        \vspace{-4pt}
+        \resumeItem{Gold Medalist in Powerlifting (DeadLift + BenchPress + Squats) Competition. }
+        \vspace{-6pt}
+    \resumeItemListEnd
+
+% Courses and Certificates
+\section{Courses \& Certificates}
+
+    \begin{itemize}
+  \item {\textbf{DSA in JAVA}} from Apna College \hfill
+    \href{https://github.com/Sagarhaldar0009/Course-Certificates/blob/afa4a6e1a4e18fc7f268099805c48b410042f8b8/Certificate-Alpha-Batch-DSA-JAVA.pdf}{Certificate}
+    \vspace{-4pt}
+  \item {\textbf{MERN Stack Web Development}} from CodeHelp \hfill
+    \href{https://github.com/Sagarhaldar0009/Course-Certificates/blob/main/CodeHelp_Mern_Stack_Certificate.png}{Certificate}
+    \vspace{-4pt}
+  \item {\textbf{Backend Development – Node.js, ExpressJs, MongoDb}} from PW Skills \hfill
+    \href{https://github.com/Sagarhaldar0009/Course-Certificates/blob/main/PWSkills-Backend-Development-Certificate.pdf}{Certificate}
+\end{itemize}
+
+    
+%
+%
+
+
+%-------------------------------------------
+\end{document}
