@@ -171,7 +171,7 @@
 
     \resumeSubheading
       {Codsoft}{08/2023 -- 09/2023}
-      {Programming Intern}{New Delhi}
+      {Programming Intern (Training)}{New Delhi}
       \resumeItemListStart
         \resumeItem{Gained real-world project building experience by successfully completing some programming tasks given by the company}
         \resumeItem{\href{https://github.com/Sagarhaldar0009/CodSoft/blob/main/SAGAR HALDAR.pdf}{Click here to see - Internship Certificate}}
